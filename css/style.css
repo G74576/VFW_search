@@ -1,0 +1,172 @@
+/* 	
+	Kevin O'Toole
+	VFW 1303
+	Project 4
+*/
+
+/*
+	Background color
+*/
+html {
+	background: #6fbfe9;
+	margin: 0px;
+	padding: 0px;
+	min-height: 416px;
+	font-family: "Times New Roman", Times, Arial;
+}
+
+/* 
+	Page Heading for all pages
+*/
+h1{
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	/*font-family: Harrington, "Times New Roman", Arial;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #c9f2ff;*/
+}
+
+/* 
+	index.html css
+*/ 
+#compilation{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: "Times New Roman", Times, Arial;
+}
+
+#click{
+	text-align: center;
+	font-family: "Times New Roman", Times, Arial;
+}
+
+#button{
+	text-align: center;
+}
+
+/*
+	additem.html css
+*/
+#subHead{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "Times New Roman", Times, Arial;
+}
+
+/* 
+	Form css
+*/
+form{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 350px;
+}
+
+fieldset{
+	background: #99ff99;
+	border: 1px solid black;
+	font-family: "Times New Roman", Times, Arial;
+}
+
+legend{
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, Arial;
+}
+
+span#required{
+	font-family: "Times New Roman", Times, Arial;
+	font-size: 12px;
+}
+
+ul#errors{
+	font-family: "Times New Roman", Times, Arial;
+	color: red;
+	font-size: 14px;
+}
+
+li{
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 350px;
+}
+
+/*
+	Contact information css
+*/
+#fname, #lname, #todaysDate, #email{
+	display: block;
+ 	width: 200px;
+}
+
+/*
+	Recipe information css
+*/
+
+#specify{
+	display: block;
+	width: 158px;
+}
+
+#time, #temperature, #ingredients, #directions{
+	display: block;
+ 	width: 200px;
+}
+
+#saveRecipe{
+	width: 200px;
+	font-family: "Times New Roman", Times, Arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div{
+	text-align: center;
+	margin: 5px;
+}
+
+/*
+	Display Recipes CSS
+*/
+#items ul#newSubList li{
+	list-style: none;
+}
+
+/*#icons{
+	margin-right: 10px;
+	text-align: right;
+}*/
+
+/* 
+	Footer css
+*/
+footer{
+	margin: 5px;
+	text-align: center;
+}
+
+/*
+	Navigation css
+*/
+#clear, #display, #addNewRecipe, #editLink, #deleteLink{
+	color: #000;
+	font-family: "Times New Roman", Times, Arial;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+#clear:hover, #display:hover, #addNewRecipe:hover, #editLink:hover, #deleteLink:hover{
+	color: #fff;
+	font-family: "Times New Roman", Times, Arial;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px;
+}

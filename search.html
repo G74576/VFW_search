@@ -1,0 +1,46 @@
+<!doctype html>
+<!-- Kevin O'Toole -->
+<!-- VFW 1303 -->
+<!-- Project 4 -->
+
+<html>
+	<!-- Document Head inclues what charactores the site will use, short description, key words for search engines
+	information on how mobile devices will use the site, and page title-->
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is a compilation of the O'Toole and Leone family recipes." />
+		<meta name="keywords" content="recipes, otoole, leone, italian, irish, german" />
+		<meta name="robots" contents="index follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimezed" content="320"/>
+		<title>Our Family Recipe Book</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />	
+	</head>
+	<body>
+		<header>
+			<h1><img alt="Logo" src="images/smallLogo.png" /></h1>
+			<!--<h1>O&#39;Toole &amp; Leone<br />Family Recipes&#33;</h1> old heading before image -->
+		</header>
+		<nav>
+			<a href="#" id="clear">Clear Stored Recipes</a>
+			<a href="#" id="display">Display Recipes</a>
+			<a href="additem.html" id="addNewRecipe" style="display:none;">Add Your Recipe</a>
+			<a href="search.html" id="searchAllRecipes">Search Recipes</a>
+		</nav>
+		<from action="#" method="post" id="recipeSearchForm">
+			<fieldset id="recipeSearch">
+				<legend>Search For A Recipe</legend>
+				<ul id="errors"></ul>
+				<ul id="questions">
+					<li id="selectType"><lable for="type">By Recipe Category:</label><br /></li>
+					<li><label for="searchName">Search by:</label><input type="text" id="searchBy" /></li>
+				</ul>
+			</fieldset>
+			<input type="button" value="Search For A Recipe" id="searchButton" /><br />
+		</form>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/search.js" type="text/javascript"></script>
+	</body>
+</html>
